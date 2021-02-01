@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/*
+   Park City Gazette Style Sheet
+   Author: Yuki Yamada
+   Date: 08/07/2020
+   Filename: styles.css
+*/
+
+html {
+    background-color: #f4f0e4;
+    font-family: "Century Gothic", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1040px;
+    height: 100%;
+}
+
+/* image styles */
+.header-logo {
+    width: 100%;
+    border-bottom-right-radius: 15px;
+}
+
+.marathon-pic {
+    width: 60%;
+    margin: 5px 5px 5px 0;
+    float: left;
+}
+
+.highway-pic {
+    display: inline-block;
+    width: 50%;
+    margin: 0 15px 10px 10px;
+    float: right;
+}
+
+.cougar-pic {
+    width: 100%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+div.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Left section styles */
+div.col-75 {
+    padding-right: 10px;
+}
+
+h1 {
+    color: #f4efdd;
+    font-size: 25px;
+    background-color: #6f6f6f;
+    padding: 2px 8px;
+    margin: 30px 0 10px 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.2em;
+}
+
+div#left-side {
+    padding-right: 10px;
+}
+
+section.tips {
+    margin-bottom: 30px;
+}
+
+.tips {
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
+
+.tips h2 {
+    color: #6f6f75;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f0d7c3;
+    border-bottom: 2px solid gray;
+    padding: 5px 13px;
+}
+
+.tips > img {
+    width: 20px;
+    margin: 5px 10px 0 0;
+    float: right;
+}
+
+.tips div {
+    background-color: #debd77;
+    padding: 8px 10px;
+
+}
+
+.tips div h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 0 15px 5px;
+}
+
+.tips ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+
+li img {
+    float: left;
+}
+
+/* Right section styles */
+div.col-25 {
+    background-color: #6f6f6f;
+    padding-left: 10px;
+}
+
+h4 {
+    color: #f3efe3;
+    font-size: 22px;
+    font-family: "Times New Roman", Times, serif;
+    border-bottom: 2px solid #d3d0c7;
+    padding: 10px 0 0 10px;
+}
+
+div.container-right ul li {
+    color: #efe4d0;
+    font-size: 14px;
+}
+
+
+div.container-right ul li:nth-of-type(odd) {
+    padding: 11px 20px;
+}
+
+div.container-right ul li:nth-of-type(even) {
+    color: #efe4d0;
+    background-color: #949494;
+    padding: 11px 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+
+
+
+

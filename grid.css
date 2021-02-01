@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    clear: both;
+}
+
+/* clear-fix hack */
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+*[class^="col-"] {
+    float: left;
+}
+
+.col-100 { width: 100%; }
+.col-75 { width: 75%; }
+.col-50 { width: 50%; }
+.col-25 { width: 25%; }
+.col-33 { width: 33.33%; }
+.col-66 { width: 66.67%; }
+.col-37 { width: 37.5%; }
+
