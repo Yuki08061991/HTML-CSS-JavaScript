@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calorie tracker!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Weight Conversion</h1>
+                <div class="control-group">
+                    <label>Weight in lbs</label>
+                    <input type="text" id="lbs">
+                </div>
+                <button id="lbs-to-kgs">Convert to kgs</button>
+            </section>
+            <section>
+                <h1>Workout METs</h1>
+                <div class="control-group">
+                    <label>Workout type</label>
+                    <select id="workouts">
+                        <!-- place your own workout choices here -->
+                        <option value="0">--Please choose an option--</option>
+                        <option value="1">General bicycling</option> <!-- METs=7.5 -->
+                        <option value="2">Health club exercise</option> <!-- METs=5.5 -->
+                        <option value="3">General aerobic</option> <!-- METs=7.3 -->
+                        <option value="4">Crab fishing</option> <!-- METs=4.5 -->
+                        <option value="5">Making bed</option> <!-- METs=3.3 -->
+                        <option value="6">Chopping wood</option> <!-- METs=4.5 -->
+                        <option value="7">Football</option> <!-- METs=8.0 -->
+                        <option value="8">Tennis</option> <!-- METs=7.3 -->
+                    </select>
+                </div>
+                <button id="workout-to-met">Convert to MET</button>
+            </section>
+            <section>
+                <h1>Calories burned per minute</h1>
+                <div class="control-group">
+                    <label>MET</label>
+                    <input type="text" id="met">
+                </div>
+                <div class="control-group">
+                    <label>Weight in kg</label>
+                    <input type="text" id="kgs">
+                </div>
+                <button id="calc-calories">Calculate calories</button>
+            </section>
+            <img src="colories.png" alt="">
+        </main>
+        <aside>
+            <textarea id="console"></textarea>
+        </aside>
+        <script src="script.js"></script>
+    </body>
+</html>

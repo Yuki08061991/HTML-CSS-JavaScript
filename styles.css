@@ -1,165 +1,79 @@
-@charset "utf-8";
-
-/*
-   Park City Gazette Style Sheet
-   Author: Yuki Yamada
-   Date: 08/07/2020
-   Filename: styles.css
-*/
-
 html {
-    background-color: #f4f0e4;
-    font-family: "Century Gothic", sans-serif;
+    background-color: #41486e;
 }
 
 body {
+    background-color: #b2c3dc;
+    width: 960px;
+    height: 710px;
     margin: 0 auto;
-    width: 70%;
-    max-width: 1040px;
-    height: 100%;
+    padding: 13px;
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
 }
 
-/* image styles */
-.header-logo {
-    width: 100%;
-    border-bottom-right-radius: 15px;
-}
-
-.marathon-pic {
-    width: 60%;
-    margin: 5px 5px 5px 0;
-    float: left;
-}
-
-.highway-pic {
-    display: inline-block;
-    width: 50%;
-    margin: 0 15px 10px 10px;
-    float: right;
-}
-
-.cougar-pic {
-    width: 100%;
-    margin-right: 15px;
+section {
+    border: solid 1px #7e85af;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     margin-bottom: 10px;
 }
 
-
-
-div.row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* Left section styles */
-div.col-75 {
-    padding-right: 10px;
-}
-
-h1 {
-    color: #f4efdd;
+section h1 {
+    margin: 10px 10px;
     font-size: 25px;
-    background-color: #6f6f6f;
-    padding: 2px 8px;
-    margin: 30px 0 10px 0;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
 }
 
-p {
-    font-size: 14px;
-    margin-bottom: 15px;
-    line-height: 1.2em;
-}
-
-div#left-side {
-    padding-right: 10px;
-}
-
-section.tips {
-    margin-bottom: 30px;
-}
-
-.tips {
-    width: 95%;
-    margin: 0 auto;
-    border: 2px solid gray;
-}
-
-.tips h2 {
-    color: #6f6f75;
-    font-size: 24px;
-    font-family: "Times New Roman", Times, serif;
-    background-color: #f0d7c3;
-    border-bottom: 2px solid gray;
-    padding: 5px 13px;
-}
-
-.tips > img {
-    width: 20px;
-    margin: 5px 10px 0 0;
-    float: right;
-}
-
-.tips div {
-    background-color: #debd77;
-    padding: 8px 10px;
-
-}
-
-.tips div h3 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 3px 0 15px 5px;
-}
-
-.tips ul li {
-    display: inline-block;
-    font-size: 14px;
-    margin-bottom: 5px;
-    padding: 0 10px;
-}
-
-li img {
+label {
+    width: 130px;
     float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: "Times New Roman";
 }
 
-/* Right section styles */
-div.col-25 {
-    background-color: #6f6f6f;
-    padding-left: 10px;
+input {
+    background-color: #eaf5ea;
+    width: 200px;
+    height: 20px;
+    border: solid 1px #7e85af;
+    border-radius: 4px;
 }
 
-h4 {
-    color: #f3efe3;
-    font-size: 22px;
-    font-family: "Times New Roman", Times, serif;
-    border-bottom: 2px solid #d3d0c7;
-    padding: 10px 0 0 10px;
+select {
+    background-color: #eaf5ea;
+    padding: 3.5px;
+    width: 200px;
+    border: solid 1px #7e85af;
+    border-radius: 4px;
 }
 
-div.container-right ul li {
-    color: #efe4d0;
-    font-size: 14px;
+.control-group {
+    margin-bottom: 10px;
 }
 
-
-div.container-right ul li:nth-of-type(odd) {
-    padding: 11px 20px;
+button {
+    padding: 4px;
+    border: solid 1px hsl(231, 23%, 59%);
+    border-radius: 4px;
+    background-color: #acacc2;
+    margin: 0px 10px 10px 10px;
 }
 
-div.container-right ul li:nth-of-type(even) {
-    color: #efe4d0;
-    background-color: #949494;
-    padding: 11px 20px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+img {
+    margin-top: 10px;
+    width: 100%;
 }
 
+textarea {
+    background-color: #eaf5ea;
+    width: 555px;
+    height: 700px;
+    margin-left: 15px;
+}
 
-
-
-
-
+aside {
+    overflow: hidden;
+}
